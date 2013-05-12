@@ -23,6 +23,14 @@ be ready to go.
 
 ## Install
 
+It's up to you: use the [`install.sh`](https://raw.github.com/rogeriopradoj/php-build-plugin-phpcsfixer/master/share/php-build/after-install.d/phpcsfixer.sh) script, or make installation by hand.
+
+### Install via `install.sh`
+
+    $ (wget -O install.sh http://git.io/HAiKXg || curl -o install.sh http://git.io/HAiKXg) && ./install.sh
+
+### Install by hand
+
 **First of all**, download the plugin (e.g. to your home directory, `~`):
 
 - Either via `wget`:
@@ -70,3 +78,13 @@ link `share/php-build/after-install.d/phpcsfixer.sh` to
 
 *Note 2:* If you don't have permissions to write to that directory, run
 the commands as superuser, either via `su -c` or via `sudo`.
+
+## Changelog
+
+### 0.0.2 - 2013-05-10
+
+- Includes `install.sh` script
+
+### 0.0.1 - 2013-05-10
+
+- First release
