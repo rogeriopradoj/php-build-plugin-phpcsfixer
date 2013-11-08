@@ -94,3 +94,7 @@ the commands as superuser, either via `su -c` or via `sudo`.
 ### 0.0.1 - 2013-05-10
 
 - First release.
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/rogeriopradoj/php-build-plugin-phpcsfixer/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
